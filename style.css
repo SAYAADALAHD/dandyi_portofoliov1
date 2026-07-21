@@ -441,3 +441,58 @@ hr {
     font-size: 16px;
   }
 }
+
+@media (max-width: 400px) {
+  .title-page-one h1 {
+    font-size: 52px;
+  }
+
+  .title-page-one p {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  .cursor {
+    position: absolute;
+    top: 250px;
+    left: 320px;
+  }
+  .file-icon {
+    margin-top: 220px;
+  }
+
+  .container-page-two p {
+    font-size: 16px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description-card h1 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .description-card p {
+    width: 100%;
+    align-self: center;
+    max-width: 290px;
+    font-size: 16px;
+  }
+
+  .container-get-in-touch {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-get-in-touch p {
+    font-size: 16px;
+  }
+}
